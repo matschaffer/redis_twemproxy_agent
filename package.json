@@ -26,7 +26,8 @@
     "node-sentinel": "0.0.4",
     "underscore": "~1.4.4",
     "async": "~0.2.5",
-    "nodemailer": "~0.3.42"
+    "nodemailer": "~0.3.42",
+    "cli": "~0.4.4-2"
   },
   "devDependencies": {
     "jshint": "~1.0.0",
