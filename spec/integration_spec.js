@@ -29,6 +29,6 @@ describe("Twemproxy integration", function () {
       try {
         return fs.readFileSync('./spec/support/status.txt', 'ascii') == 'restarted';
       } catch (e) { }
-    }, "twemproxy restart to be noted in status.txt", 5000);
+    }, "twemproxy restart to be noted in status.txt", 30000);
   });
 });

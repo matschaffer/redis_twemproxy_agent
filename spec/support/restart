@@ -1,3 +1,4 @@
 #!/bin/bash
 
 echo -n "restarted" > "`dirname $0`/status.txt"
+echo "Restarted!"
