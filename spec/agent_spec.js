@@ -12,12 +12,5 @@ describe("Redis Twemproxy Agent", function() {
 
   it("subscribes to master switch notifications");
   it("swaps old master information with new master information");
-
-  it("restarts twemproxy", function () {
-    var done;
-
-    agent.restart_nutcracker(function () { done = true; });
-
-    waitsFor(function () { return done; });
-  });
+  it("restarts twemproxy");
 });
