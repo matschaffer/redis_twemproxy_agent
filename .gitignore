@@ -1,4 +1,5 @@
 /node_modules
 /*.tgz
 /spec/support/status.txt
-/dump.rdb
+/spec/support/*.rdb
+/spec/logs
