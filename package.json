@@ -1,6 +1,6 @@
 {
   "name": "redis_twemproxy_agent",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Redis agent for nutcracker update",
   "preferGlobal": true,
   "bin": "bin/redis_twemproxy_agent",
@@ -23,7 +23,6 @@
   ],
   "license": "BSD",
   "dependencies": {
-    "node-sentinel": "0.0.4",
     "underscore": "~1.4.4",
     "async": "~0.2.5",
     "cli": "~0.4.4-2",
